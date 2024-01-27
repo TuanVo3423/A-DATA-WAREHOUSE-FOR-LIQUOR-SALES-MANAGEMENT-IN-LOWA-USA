@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "DataWareHouse_Sale(SSRS)", "DataWareHouse_Sale(SSRS).rptproj", "{9C8E6D11-CF85-43DC-94FE-80EF11371C74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.Debug|Default.ActiveCfg = Debug
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.Debug|Default.Build.0 = Debug
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.Debug|Default.Deploy.0 = Debug
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.DebugLocal|Default.Build.0 = DebugLocal
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.Release|Default.ActiveCfg = Release
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.Release|Default.Build.0 = Release
+		{9C8E6D11-CF85-43DC-94FE-80EF11371C74}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6FB71E4-A6D6-49B5-A45F-CCC03875AFC7}
+	EndGlobalSection
+EndGlobal

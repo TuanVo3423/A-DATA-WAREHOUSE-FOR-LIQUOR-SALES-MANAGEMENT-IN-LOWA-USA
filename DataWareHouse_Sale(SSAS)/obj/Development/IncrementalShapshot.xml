@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DataWareHouseSaleSSAS</Database>
+    <Server>DESKTOP-TE28FUM\MSSQLSERVER2022</Server>
+    <ConnectionString>Data Source=DESKTOP-TE28FUM\MSSQLSERVER2022;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>o3MdlF3bHeukjLq4td83VNVRpIY=12/5/2023 9:34:13 AM12/5/2023 9:34:13 AM</TimeStamp>
+        <ID>
+          <String>Data Ware House Sale SSIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6Ya8dF8CRm/vr2oErtrQPieailc=12/5/2023 9:35:28 AM12/5/2023 9:35:28 AM</TimeStamp>
+        <ID>
+          <String>Data Ware House Sale SSIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k1szXxfSrzPJ2MgCribzDDMVFf0=12/5/2023 9:38:10 AM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Vendor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iAbb6tIBR0cCNogCwFp/94hbCNg=12/5/2023 9:38:10 AM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k8Oy3gtWjVE1MPCv8hqDJwSVAVA=12/5/2023 9:38:10 AM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qg81Xj/EtVCwxjK9GeQP4kKLvDo=12/5/2023 9:38:10 AM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WPr9EtWWkhDSQt4avibWT9Hom5k=12/5/2023 9:38:10 AM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wQEdJ4SDzwE/oWfakxRpFeugiPY=12/27/2023 7:49:04 PM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>87HZoD/C1aSx6U3dezjeHGgu6Ks=12/27/2023 8:25:57 PM12/5/2023 9:35:58 AMq1XYXcP68TYpk6OxrkGECvoE/Z8=12/27/2023 8:25:57 PM12/5/2023 9:35:58 AM</TimeStamp>
+        <ID>
+          <String>factsale</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5skrhddvlCeyUqpQxGHebVmtTcU=12/27/2023 7:58:01 PM12/5/2023 9:36:37 AMUl6lAVO4JSypw3Id1FfUocg41DE=12/5/2023 9:36:37 AM12/5/2023 9:36:37 AM</TimeStamp>
+        <ID>
+          <String>factstoresale</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>vpjeZ/RtCI6uzGhTE9g04QSMBWE=12/4/2023 9:11:08 PM12/4/2023 9:11:07 PM</TimeStamp>
+      <ID>
+        <String>DataWareHouseSaleSSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-12-28T04:47:11.11Z</LastDeployed>
+</DeploymentSnapshot>
